@@ -1,0 +1,10 @@
+{
+  "type": "services",
+  "items": [
+    {
+      "name": "Car",
+      "key": "car-shopping-service",
+      "owner": "Mike"
+    }
+  ]
+}

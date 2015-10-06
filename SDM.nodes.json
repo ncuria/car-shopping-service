@@ -1,0 +1,28 @@
+{
+  "type": "nodes",
+  "serviceInstance": "car-shopping-service-acc",
+  "items": [
+    {
+      "name": "airbook001.int.example.com-acc",
+      "version": "1.0.0",
+      "machine": "airbook001.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.3"
+        }
+      ]
+    },
+    {
+      "name": "airbook002.int.example.com-acc",
+      "version": "1.0.0",
+      "machine": "airbook002.int.example.com",
+      "ipAddresses": [
+        {
+          "ipAddressRole": "default",
+          "ipAddress": "10.13.0.4"
+        }
+      ]
+    }
+  ]
+}

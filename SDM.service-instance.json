@@ -1,0 +1,33 @@
+{
+  "type": "service-instances",
+  "items": [
+    {
+      "key": "car-shopping-service-acc",
+      "environment": "acc",
+      "service": "car-shopping-service",
+      "dataCenter": "aws-us-east-1a",
+      "ipAddressRoles": [
+        {
+          "name": "default",
+          "description": "Default role"
+        }
+      ],
+      "ports": [
+        {
+          "description": "",
+          "number": "80",
+          "protocol": "http"
+        },
+        {
+          "description": "",
+          "number": "8080",
+          "protocol": "http"
+        }
+      ],
+      "minCapacityOps": 50,
+      "minCapacityDeploy": "",
+      "loadBalanced": true,
+      "eosManaged": true
+    }
+  ]
+}
